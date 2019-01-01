@@ -52,7 +52,7 @@ public class inclass_test {
         Configuration conf=new Configuration(); //Hadoop配置类
         conf.set("fs.defaultFS",hdfs);
         conf.set("mapreduce.app-submission.cross-platform","true"); //集群交叉提交
-//        conf.set("mapreduce.framework.name","yarn");
+       // conf.set("mapreduce.framework.name","yarn");
         /*conf.set("hadoop.job.user","hadoop");
         conf.set("mapreduce.jobtracker.address",namenode_ip+":9001");
         conf.set("yarn.resourcemanager.hostname",namenode_ip);
@@ -73,7 +73,7 @@ public class inclass_test {
         job.setOutputValueClass(IntWritable.class);
 
         //3.设置作业输入和输出路径
-        String dataDir = "/data/exp/data";		//实验数据目录
+        String dataDir = "/data/exp/";		//实验数据目录
         String outputDir = "/data/exp/output";	//实验输出目录
         Path inPath = new Path(hdfs + dataDir);
         Path outPath = new Path(hdfs + outputDir);
