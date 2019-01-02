@@ -43,11 +43,12 @@ public class WordCount2 {
 
 	public static void main(String[] args) throws Exception {		
 		//1.设置HDFS配置信息
-		String namenode_ip = "192.168.17.10";
-		String hdfs = "hdfs://" + namenode_ip + ":9000";			
+//        Configuration conf= new Configuration();
+//        conf.set("fs.default.name","hdfs://xusy:9000");
+		String hdfs = "hdfs://xusy:9000";
 		Configuration conf = new Configuration();	//Hadoop配置类
-		conf.set("fs.defaultFS", hdfs);
-		conf.set("mapreduce.app-submission.cross-platform", "true");	//集群交叉提交
+		conf.set("fs.default.name", hdfs);
+//		conf.set("mapreduce.app-submission.cross-platform", "true");	//集群交叉提交
 /*		conf.set("hadoop.job.user", "hadoop");
 		conf.set("mapreduce.framework.name", "yarn");
 		conf.set("mapreduce.jobtracker.address", namenode_ip + ":9001");
@@ -57,12 +58,13 @@ public class WordCount2 {
 		conf.set("yarn.resourcemanager.admin.address", namenode_ip + ":8033");
 		conf.set("yarn.resourcemanager.scheduler.address", namenode_ip + ":8034");
 		conf.set("mapreduce.jobhistory.address", namenode_ip + ":10020"); */
-		
+
+
 		//2.设置MapReduce作业配置信息
 		String jobName = "WordCount2";					//定义作业名称
 		Job job = Job.getInstance(conf, jobName);
 		job.setJarByClass(WordCount2.class);			//指定作业类
-		job.setJar("export\\WordCount2.jar");			//指定本地jar包
+//		job.setJar("export\\WordCount2.jar");			//指定本地jar包
 		job.setMapperClass(TokenizerMapper.class);
 		job.setCombinerClass(IntSumReducer.class);		//指定Combiner类
 		job.setReducerClass(IntSumReducer.class);
@@ -70,8 +72,8 @@ public class WordCount2 {
 		job.setOutputValueClass(IntWritable.class);
 		
 		//3.设置作业输入和输出路径
-		String dataDir = "/expr/wordcount/data";		//实验数据目录	
-		String outputDir = "/expr/wordcount/output";	//实验输出目录
+		String dataDir = "/practice/wordcount/data";		//实验数据目录
+		String outputDir = "/practice/wordcount/output";	//实验输出目录
 		Path inPath = new Path(hdfs + dataDir);
 		Path outPath = new Path(hdfs + outputDir);
 		FileInputFormat.addInputPath(job, inPath);
