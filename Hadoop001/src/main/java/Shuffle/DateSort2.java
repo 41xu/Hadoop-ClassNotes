@@ -48,17 +48,16 @@ public class DateSort2 {
 	
 	public static void main(String[] args) throws Exception {		
 		//1.设置HDFS配置信息
-		String namenode_ip = "192.168.17.10";
-		String hdfs = "hdfs://" + namenode_ip + ":9000";			
+		String hdfs = "hdfs://xusy:9000";
 		Configuration conf = new Configuration();
-		conf.set("fs.defaultFS", hdfs);
+		conf.set("fs.default.name", hdfs);
 		conf.set("mapreduce.app-submission.cross-platform", "true");
 
 		//2.设置MapReduce作业配置信息
 		String jobName = "DateSort2";					//定义作业名称
 		Job job = Job.getInstance(conf, jobName);
 		job.setJarByClass(DateSort2.class);				//指定作业类
-		job.setJar("export\\DateSort2.jar");			//指定本地jar包
+//		job.setJar("export\\DateSort2.jar");			//指定本地jar包
 		job.setMapperClass(DateSort2Mapper.class);		//指定Mapper类
 		job.setMapOutputKeyClass(IntWritable.class);	//设置Mapper输出Key类型
 		job.setMapOutputValueClass(Text.class);			//设置Mapper输出Value类型
@@ -68,8 +67,8 @@ public class DateSort2 {
 		job.setSortComparatorClass(MySort.class);		//设置自定义排序类
 		
 		//3.设置作业输入和输出路径
-		String dataDir = "/expr/datecount/output_count/part-r-00000";	//实验数据目录	
-		String outputDir = "/expr/datecount/output_sort2";				//实验输出目录
+		String dataDir = "/data/datecount/output_count/part-r-00000";	//实验数据目录
+		String outputDir = "/data/datecount/output_sort2";				//实验输出目录
 		Path inPath = new Path(hdfs + dataDir);
 		Path outPath = new Path(hdfs + outputDir);
 		FileInputFormat.addInputPath(job, inPath);
