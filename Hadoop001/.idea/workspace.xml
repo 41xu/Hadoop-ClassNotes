@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="772e47e6-8eef-4c8e-9cf7-aed36741b3a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shuffle/DateDistinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shuffle/DateDistinct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shuffle/DateFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shuffle/DateFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shuffle/DateSort3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shuffle/DateSort3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Shuffle/DateSort2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Shuffle/DateSort2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,16 +66,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="6" />
           <entry key="ser" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="6" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="74" />
+          <entry key="txt" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="74" />
+          <entry key="PLAIN_TEXT" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -92,11 +106,55 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Shuffle/DateSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="68" lean-forward="true" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+            <state relative-caret-position="305">
+              <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Shuffle/DateSort3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#961#962#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Shuffle/DateDistinct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="42" column="66" lean-forward="true" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Shuffle/DateFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="54" column="68" lean-forward="true" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,10 +165,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Shuffle/DateSort2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="749">
-              <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+            <state relative-caret-position="252">
+              <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
+                <element signature="e#1524#1525#0" expanded="true" />
+                <element signature="e#1643#1644#0" expanded="true" />
+                <element signature="e#1673#1674#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,6 +226,10 @@
         <option value="$PROJECT_DIR$/src/main/java/序列化/Hadoop序列化/IntWritableDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/Shuffle/DateCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/Shuffle/DateSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Shuffle/DateSort2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Shuffle/DateSort3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Shuffle/DateDistinct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Shuffle/DateFilter.java" />
       </list>
     </option>
   </component>
@@ -254,7 +320,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546443845586" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546446895372" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
@@ -282,10 +348,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DateSort2">
-    <configuration name="DateCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Shuffle.DateCount" />
-      <module name="Hadoop001" />
+  <component name="RunManager" selected="Application.KeyValueInput">
+    <configuration name="DateDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Shuffle.DateDistinct" />
+      <module name="HadoopMavenDemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Shuffle.*" />
@@ -296,22 +362,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatePartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Shuffle.DatePartition" />
-      <module name="Hadoop001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Shuffle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Shuffle.DateSort" />
-      <module name="Hadoop001" />
+    <configuration name="DateFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Shuffle.DateFilter" />
+      <module name="HadoopMavenDemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Shuffle.*" />
@@ -335,12 +388,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeMean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MapReduce.GradeMean" />
-      <module name="Hadoop001" />
+    <configuration name="DateSort3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Shuffle.DateSort3" />
+      <module name="HadoopMavenDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MapReduce.*" />
+          <option name="PATTERN" value="Shuffle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeyValueInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapReduceInputOutput.KeyValueInput" />
+      <module name="HadoopMavenDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MapReduceInputOutput.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,19 +415,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GradeMean" />
-      <item itemvalue="Application.DateCount" />
-      <item itemvalue="Application.DatePartition" />
-      <item itemvalue="Application.DateSort" />
       <item itemvalue="Application.DateSort2" />
+      <item itemvalue="Application.DateSort3" />
+      <item itemvalue="Application.DateDistinct" />
+      <item itemvalue="Application.DateFilter" />
+      <item itemvalue="Application.KeyValueInput" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KeyValueInput" />
+        <item itemvalue="Application.DateFilter" />
+        <item itemvalue="Application.DateDistinct" />
+        <item itemvalue="Application.DateSort3" />
         <item itemvalue="Application.DateSort2" />
-        <item itemvalue="Application.DateSort" />
-        <item itemvalue="Application.DateCount" />
-        <item itemvalue="Application.DatePartition" />
-        <item itemvalue="Application.GradeMean" />
       </list>
     </recent_temporary>
   </component>
@@ -376,6 +442,21 @@
       <option name="presentableId" value="Default" />
       <updated>1544078888007</updated>
     </task>
+    <task id="LOCAL-00001" summary="2 sort">
+      <created>1546443884071</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546443884072</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2 sort">
+      <created>1546443891897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546443891897</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -402,7 +483,7 @@
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18168813" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18168813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -412,7 +493,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.364539" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21134752" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -433,6 +514,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2 sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 sort" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -772,18 +857,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Shuffle/DateSort2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        <state relative-caret-position="252">
+          <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+            <element signature="e#1643#1644#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Shuffle/DateSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="68" lean-forward="true" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+        <state relative-caret-position="305">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Shuffle/DateSort3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Shuffle/DateDistinct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="42" column="66" lean-forward="true" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Shuffle/DateFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="54" column="68" lean-forward="true" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

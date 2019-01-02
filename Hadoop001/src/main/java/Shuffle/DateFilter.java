@@ -33,17 +33,16 @@ public class DateFilter {
 */
 	public static void main(String[] args) throws Exception {		
 		//1.设置HDFS配置信息
-		String namenode_ip = "192.168.17.10";
-		String hdfs = "hdfs://" + namenode_ip + ":9000";			
+		String hdfs = "hdfs://xusy:9000";
 		Configuration conf = new Configuration();
-		conf.set("fs.defaultFS", hdfs);
+		conf.set("fs.default.name", hdfs);
 		conf.set("mapreduce.app-submission.cross-platform", "true");
 		
 		//2.设置MapReduce作业配置信息
 		String jobName = "DateFilter";					//定义作业名称
 		Job job = Job.getInstance(conf, jobName);		
 		job.setJarByClass(DateFilter.class);			//指定运行时作业类
-		job.setJar("export\\DateFilter.jar");			//指定本地jar包
+//		job.setJar("export\\DateFilter.jar");			//指定本地jar包
 		job.setMapperClass(DateFilterMapper.class);
 		job.setMapOutputKeyClass(Text.class);			//设置Mapper输出Key类型
 		job.setMapOutputValueClass(NullWritable.class);	//设置Mapper输出Value类型
@@ -52,8 +51,8 @@ public class DateFilter {
 		//job.setOutputValueClass(NullWritable.class);	//设置Reduce输出值类型
 		
 		//3.设置作业输入和输出路径
-		String dataDir = "/expr/datecount/data";			//实验数据目录	
-		String outputDir = "/expr/datecount/output_filter";	//实验输出目录
+		String dataDir = "/data/datecount/data";			//实验数据目录
+		String outputDir = "/data/datecount/output_filter";	//实验输出目录
 		Path inPath = new Path(hdfs + dataDir);
 		Path outPath = new Path(hdfs + outputDir);
 		FileInputFormat.addInputPath(job, inPath);

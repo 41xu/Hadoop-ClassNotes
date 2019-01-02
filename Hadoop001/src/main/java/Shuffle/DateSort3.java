@@ -46,19 +46,19 @@ public class DateSort3 {
 			this.num = num;
 		}
 
-		@Override
+//		@Override
 		public void write(DataOutput out) throws IOException {
 			out.writeUTF(date);
 			out.writeInt(num);
 		}
 
-		@Override
+//		@Override
 		public void readFields(DataInput in) throws IOException {
 			date = in.readUTF();
 			num = in.readInt();
 		}
 
-		@Override
+//		@Override
 		public int compareTo(MyKey o) {
 			if (!date.equals(o.date)) 
 				return date.compareTo(o.date);
@@ -85,17 +85,16 @@ public class DateSort3 {
 
 	public static void main(String[] args) throws Exception {		
 		//1.设置HDFS配置信息
-		String namenode_ip = "192.168.17.10";
-		String hdfs = "hdfs://" + namenode_ip + ":9000";			
+		String hdfs = "hdfs://xusy:9000";
 		Configuration conf = new Configuration();
-		conf.set("fs.defaultFS", hdfs);
+		conf.set("fs.default.name", hdfs);
 		conf.set("mapreduce.app-submission.cross-platform", "true");
 
 		//2.设置MapReduce作业配置信息
 		String jobName = "DateSort3";					//定义作业名称
 		Job job = Job.getInstance(conf, jobName);
 		job.setJarByClass(DateSort3.class);				//指定运行时作业类
-		job.setJar("export\\DateSort3.jar");			//指定本地jar包
+//		job.setJar("export\\DateSort3.jar");			//指定本地jar包
 		job.setMapperClass(DateSort3Mapper.class);		//指定Mapper类
 		job.setMapOutputKeyClass(MyKey.class);			//设置Mapper输出Key类型
 		job.setMapOutputValueClass(NullWritable.class);	//设置Mapper输出Value类型
@@ -104,8 +103,8 @@ public class DateSort3 {
 		job.setOutputValueClass(IntWritable.class); 	//设置Reduce输出Value类型
 		
 		//3.设置作业输入和输出路径
-		String dataDir = "/expr/datecount/data";			//实验数据目录	
-		String outputDir = "/expr/datecount/output_sort3";	//实验输出目录
+		String dataDir = "/data/datecount/data";			//实验数据目录
+		String outputDir = "/data/datecount/output_sort3";	//实验输出目录
 		Path inPath = new Path(hdfs + dataDir);
 		Path outPath = new Path(hdfs + outputDir);
 		FileInputFormat.addInputPath(job, inPath);
