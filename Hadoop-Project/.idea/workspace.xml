@@ -13,10 +13,11 @@
     <session id="-1602214390">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,22 +43,43 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="562518646">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="63" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="63" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoopproject/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-122">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hadoopproject/src/main/java/sample_test/create.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="120">
               <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,11 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hadoopproject/src/main/java/MapReduce/GradeCal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="665">
+              <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -84,6 +103,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="package-info" />
+        <option value="Singleton" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -106,8 +128,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="450" />
-    <option name="y" value="25" />
+    <option name="x" value="214" />
+    <option name="y" value="24" />
     <option name="width" value="1126" />
     <option name="height" value="796" />
   </component>
@@ -116,63 +138,63 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Hadoop-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop-Project_后来都在GithubHadoopNote里更新了！" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hadoop-Project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Hadoop-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadoop-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoopproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop-Project_后来都在GithubHadoopNote里更新了！" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hadoop-Project" type="462c0819:PsiDirectoryNode" />
               <item name="hadoopproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Hadoop-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop-Project_后来都在GithubHadoopNote里更新了！" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hadoop-Project" type="462c0819:PsiDirectoryNode" />
               <item name="hadoopproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Hadoop-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop-Project_后来都在GithubHadoopNote里更新了！" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hadoop-Project" type="462c0819:PsiDirectoryNode" />
               <item name="hadoopproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Hadoop-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop-Project_后来都在GithubHadoopNote里更新了！" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hadoop-Project" type="462c0819:PsiDirectoryNode" />
               <item name="hadoopproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sample_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hadoop-Project_后来都在GithubHadoopNote里更新了！" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoopproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MapReduce" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577610903834" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577680360904" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -187,7 +209,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.create">
+  <component name="RunManager" selected="Application.GradeCal">
+    <configuration name="GradeCal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapReduce.GradeCal" />
+      <module name="hadoopproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MapReduce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="create" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sample_test.create" />
       <module name="hadoopproject" />
@@ -211,9 +246,11 @@
     <list>
       <item itemvalue="Application.hdfs_test" />
       <item itemvalue="Application.create" />
+      <item itemvalue="Application.GradeCal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GradeCal" />
         <item itemvalue="Application.create" />
         <item itemvalue="Application.hdfs_test" />
       </list>
@@ -233,10 +270,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="450" y="25" width="1126" height="796" extended-state="0" />
+    <frame x="214" y="24" width="1126" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25461254" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26845017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -269,29 +306,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hadoopproject/src/main/java/hdfs_test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadoopproject/src/main/java/sample_test/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoopproject/src/main/java/hdfs_test.java" />
+    <entry file="file://$PROJECT_DIR$/hadoopproject/src/main/java/sample_test/test.java" />
+    <entry file="file://$PROJECT_DIR$/hadoopproject/src/main/java/MapReduce/package-info.java" />
     <entry file="file://$PROJECT_DIR$/hadoopproject/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-122">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="151">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoopproject/src/main/java/sample_test/create.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="120">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -301,11 +328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoopproject/src/main/java/MapReduce/GradeCal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="665">
+          <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
         </state>
       </provider>
     </entry>
